@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Starfleet</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  
+ <div id="main-container" class="container-fluid">
+      <div class="row">
+        <div class="col-xs-3" align: "left">
+          <%= image_tag("starfleet_academy_emblem_by_greghouse1990-d4oy3rr.png", size: "300") %>
+          
+        </div>
+        <div class="col-xs-9">
+          <%= yield %>
+        </div>
+      </div>
+    </div>
+
+
+</body>
+</html>

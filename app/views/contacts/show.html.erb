@@ -1,0 +1,28 @@
+<p id="notice"><%= notice %></p>
+<h1>Starfleet Personnel</h1>
+<p>
+  <strong>Name:</strong>
+  <%= @contact.name %>
+</p>
+
+<p>
+  <strong>Phone:</strong>
+  <%= @contact.phone %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @contact.description %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @contact.email %>
+</p>
+
+<%= link_to edit_contact_path(@contact), class: 'btn btn-info' do %>
+    <i class="glyphicon glyphicon-pencil"></i> Edit
+    <% end %>
+<%= link_to contacts_path, class: 'btn btn-success' do %>
+    <i class="glyphicon glyphicon-backward"></i> Back
+    <% end %>
