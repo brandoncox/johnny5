@@ -272,7 +272,7 @@
       "displayName": "Git Repository URL",
       "required": true,
       "description": "The URL of the repository with your application source code.",
-      "value": "https://github.com/brandoncox/johnny5.git"
+      "value": "https://github.com/enham/johnny5.git"
     },
     {
       "name": "SOURCE_REPOSITORY_REF",
